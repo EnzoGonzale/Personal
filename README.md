@@ -1,2 +1,2 @@
-# GonzalezTorresMeza
-Trabajos Prácticos de IA
+# Gonzalez
+Carpetas Personales
