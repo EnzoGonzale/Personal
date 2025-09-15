@@ -1,0 +1,72 @@
+.social_bar{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+.social_bar i{
+    padding: 10px;
+    font-size: 30px;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 280px;
+    right: 0;
+    border-radius: 15px 0 0 0;
+    color: white;
+    background-color: rgb(24, 204, 69);
+}
+.whatsapp:hover{
+    color: white;
+    padding-right: 50px;
+    border-radius: 15px 0 0 15px;
+    transition: 0.8s;
+}
+.facebook{
+    position: fixed;
+    padding-right: 9px;
+    bottom: 230px;
+    right: 0;
+    color: white;
+    background-color: blue;
+}
+.facebook:hover{
+    color: white;
+    padding-right: 50px;
+    border-radius: 15px 0 0 15px;
+    transition: 0.8s;
+}
+.instagram{
+    position: fixed;
+    bottom: 180px;
+    right: 0;
+    border-radius: 0 0 0 15px;
+    color: white;
+    background: linear-gradient(orange, rgb(255, 0, 170));
+}
+.instagram:hover{
+    color: white;
+    padding-right: 50px;
+    border-radius: 15px 0 0 15px;
+    transition: 0.8s;
+}
+@media screen and (max-width: 500px){
+    .social_bar i{
+        padding: 5px;
+        font-size: 25px;
+    }
+    .whatsapp{
+        bottom: 205px;
+        border-radius: 10px 0 0 0;
+    }
+    .whatsapp:hover{padding-right: 30px;}
+    .facebook{
+        padding-right: 7px;
+        bottom: 170px;
+    }
+    .facebook:hover{padding-right: 30px;}
+    .instagram{
+        bottom: 135px;
+        border-radius: 0 0 0 10px;
+    }
+    .instagram:hover{padding-right: 30px;}
+}

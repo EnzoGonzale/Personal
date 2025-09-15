@@ -1,0 +1,41 @@
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px 0 0 0;
+    cursor: pointer;
+}
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    margin-top: -4px;
+    border-radius: 0 0 0 15px;
+    cursor: pointer;
+}
+.barra{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 200px;
+}
+.facebook:hover{
+    margin-right: 5px;
+    border-radius: 12px;
+    transform: scale(1.2);
+}
+.instagram:hover{
+    margin-right: 5px;
+    border-radius: 12px;
+    transform: scale(1.2);
+}
+.whatsapp:hover{
+    margin-right: 5px;
+    border-radius: 12px;
+    transform: scale(1.2);
+}
