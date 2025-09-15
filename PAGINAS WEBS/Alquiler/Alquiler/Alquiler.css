@@ -1,0 +1,82 @@
+body{
+    font-family: 'Coming Soon', cursive;
+    background-color: rgb(241, 241, 241);
+}
+.ruben{
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.andrea{
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.mica{
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.cont{
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.ubit{
+    font-size: 29px;
+    color: orange;
+    font-weight: bold;
+}
+#ubi{
+    color: orange;
+    font-size: 25px
+}
+.txtubi{
+    margin-left: 5px;
+    font-size: 27px;
+}
+#maps{
+    width: 100%;
+    height: 290px;
+}
+.textwsap{
+    font-size: 25px;
+}
+#wsap{
+    margin-right: 10px;
+    font-size: 34px;
+}
+@media screen and (max-width: 650px){
+    .cont{
+        text-align: center;
+        font-size: 37px;
+    }
+    a p{
+        font-size: 15px;
+    }
+    .andrea{
+        width: 100px;
+        height: 100px;
+    }
+    .ruben{
+        width: 100px;
+        height: 100px;
+    }
+    .mica{
+        width: 100px;
+        height: 100px;
+    }
+    .txtubi{
+        font-size: 18px;
+    }
+    .textwsap{
+        font-size: 18px;
+    }
+    #wsap{
+        font-size: 26px;
+    }
+}

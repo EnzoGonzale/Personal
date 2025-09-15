@@ -1,0 +1,128 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.hidden{
+    overflow: hidden;
+}
+header{
+    background: linear-gradient(rgb(90, 49, 49), rgb(165, 23, 23));
+    margin-bottom: 5px;
+}
+#title{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#title h1{
+    font-size: 60px;
+    color: white;
+}
+#MA{
+    position: absolute;
+    right: 0;
+    z-index: 50;
+    margin-top: -20px;
+    margin-right: 5px;
+    color: white;
+}
+#img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 0;
+}
+.col-sm-4 button{
+    background-color: rgb(165, 23, 23);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.col-sm-4 h5{
+    color: rgb(165, 23, 23);
+    font-weight: bold;
+}
+#phone{
+    color: white;
+    margin-left: 5px;
+    margin-top: -12px;
+    position: absolute;
+    font-size: 45px;
+}
+#titc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(165, 23, 23);
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    width: 100%;
+}
+#cont{
+    padding-top: 35px;
+}
+#cont ul{
+    list-style-type: none;
+    width: 99.8%;
+}
+#cont li{
+    padding-bottom: 20px;
+    text-align: center;
+}
+#cont a{
+    color: rgb(165, 23, 23);
+    font-size: 17px;
+    font-weight: bold;
+}
+#np{
+    color: rgb(165, 23, 23);
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.close{
+    background-color: white;
+}
+.close:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#titc span{font-family: Georgia, 'Times New Roman', Times, serif;}
+@media screen and (max-width: 725px){
+    #cont li{
+        margin-left: -35px;
+    }
+}
+@media screen and (max-width: 575px){
+    #title h1{
+        font-size: 30px;
+    }
+    #img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #np{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 400px){
+    #cont li{
+        padding-bottom: 10px;
+        text-align: left;
+        margin-left: -15px;
+    }
+    #cont li a{
+        font-size: 14px;
+    }
+    #titc span{
+        margin-left: 20px;
+    }
+    #np{
+        font-size: 29px;
+    }
+    #MA{
+        font-size: 13px;
+    }
+}
